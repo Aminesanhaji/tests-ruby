@@ -48,10 +48,17 @@ describe "#multiply" do
   end
 
   it "multiplies two other numbers"
+<<<<<<< HEAD
     # one other test here, don't forget do end ;)
 
   it "multiplies two other numbers, one of them being 0"
     # one last test, with 0 in it
+=======
+  expect(multiply(5, 5)).to eq(25)
+
+  it "multiplies two other numbers, one of them being 0"
+  expect(multiply(0, 6)).to eq(0)
+>>>>>>> final version
 
 end
 
