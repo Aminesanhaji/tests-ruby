@@ -1,16 +1,8 @@
 def hello
-<<<<<<< HEAD
-
+  "Hello!"
 end
 
 def greet(name)
-
+  "Hello, #{name}!"
 end
-=======
-    "Hello!"
-  end
-  
-  def greet(name)
-    "Hello, #{name}!"
-  end
->>>>>>> final version
+
